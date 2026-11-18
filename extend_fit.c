@@ -335,7 +335,7 @@ static int best_fit_without_file(const double *x, const double *y,
 
 
 int main() {
-    FILE *fp=fopen("C:/Users/Rifat/Downloads/curve_fitting_data.txt","r");
+    FILE *fp=fopen("curve_fitting_data.txt","r");
     if (!fp) {
         return 1;
     }
